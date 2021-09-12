@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 227, 227);
+}
+
+.logo {
+    text-align: center;
+    flex: 1;
+}
+
+.nav {
+    flex: 2;
+    margin-right: 4em;
+}
+
+.nav-list {
+    float: right;
+    display: inline-flex;
+    justify-content: end;
+    list-style: none;
+}
+
+.nav-items {
+    margin-right: 0.8em;
+    padding: 0.8em;
+}
+
+.section1{
+    background: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+.flex1 {
+    flex: 1;
+    padding: 3em;
+}
+
+.subtitle {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+.detail-text {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 0.7em;
+}
+.section1 h3, .section1 h4 {
+    color: white;
+    letter-spacing: 0.4em;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    border: none;
+    background-color: indigo;
+    
+    padding: 0.7em;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.sozial-medien{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sozial-medien img {
+    text-align: center;
+    margin-top: 2em;
+    width: 10%;
+}
+
+.flex2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+.profile-bild{
+    padding: 3em 0 0 0;
+}
+.profile-bild img {
+    width: 50%;
+}
+
+.project-section {
+    margin-bottom: 2em;
+}
+
+.project-img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project-img img {
+    width: 25%;
+}
+
+.skill-lists {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-subtitle{
+    /*margin-left: 2em;*/
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.skill-lists ul {
+    list-style: none;
+    text-align: center;
+    line-height: 1.6em;
+}
+
+.section-footer {
+    justify-content: space-around;
+    background-color: rgb(243, 227, 227);
+    margin-bottom: 0em;
+    padding: 0 2em 2em 2em;
+}
+
+.adress {
+    color: rgba(20,80,125,0.8);
+}
